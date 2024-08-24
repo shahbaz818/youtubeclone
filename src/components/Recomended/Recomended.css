@@ -1,0 +1,31 @@
+.recomended {
+    flex-basis: 30%;
+}
+
+.side-video-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.side-video-list img {
+    flex-basis: 49%;
+    width: 50%;
+}
+
+.video-info {
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+.video-info h3 {
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.h5 {
+    font-size: 12px;
+    font-weight: 100;
+    font-family: sans-serif;
+}

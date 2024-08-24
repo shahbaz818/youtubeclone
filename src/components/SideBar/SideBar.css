@@ -1,0 +1,48 @@
+.sidebar {
+    height: 100vw;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: fixed;
+}
+
+.sidebar-link img {
+    width: 15%;
+    margin-right: 35px;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.sidebar-link p {
+    margin-left: 5px;
+}
+
+.sidebar-link.active img {
+    padding-bottom: 2px;
+    border-bottom: 3px solid red;
+}
+
+.sidebar hr {
+    padding-bottom: 3px;
+}
+
+.sidebar p {
+    font-size: 12px;
+}
+
+.small-sidebar {
+    width: 5%;
+}
+
+.small-sidebar p {
+    display: none;
+}
+
+.small-sidebar hr {
+    width: 20vh;
+}
